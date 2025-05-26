@@ -1,0 +1,846 @@
+2025-04-08 11:18:47 INFO  c.userservice.UserServiceApplication - Starting UserServiceApplication using Java 23.0.2 with PID 7314 (/home/kuldeep/D/Case Study/E-Shopping_zone/UserService/target/classes started by kuldeep in /home/kuldeep/D/Case Study/E-Shopping_zone/UserService)
+2025-04-08 11:18:47 INFO  c.userservice.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 11:18:47 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 11:18:47 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
+2025-04-08 11:18:47 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=be480838-fffa-3046-b705-5c08393bf500
+2025-04-08 11:18:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-04-08 11:18:48 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-04-08 11:18:48 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 11:18:48 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 11:18:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 11:18:48 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1279 ms
+2025-04-08 11:18:48 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 11:18:48 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 11:18:48 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 11:18:48 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 11:18:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 11:18:49 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f22fd5d
+2025-04-08 11:18:49 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 11:18:49 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 11:18:49 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-08 11:18:49 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 11:18:49 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 11:18:49 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 11:18:50 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 11:18:50 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-08 11:18:51 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-08 11:18:52 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-08 11:18:52 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-08 11:18:53 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-08 11:18:53 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-08 11:18:53 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-08 11:18:53 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1744091333348 with initial instances count: 2
+2025-04-08 11:18:53 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USERSERVICE with eureka with status UP
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744091333355, current=UP, previous=STARTING]
+2025-04-08 11:18:53 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-08 11:18:53 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-04-08 11:18:53 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2025-04-08 11:18:53 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-08 11:18:54 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-08 11:18:54 INFO  c.userservice.UserServiceApplication - Started UserServiceApplication in 8.691 seconds (process running for 9.263)
+2025-04-08 11:19:18 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 11:19:18 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-08 11:19:18 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-08 11:19:18 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2025-04-08T05:28:37.360Z": expected format "dd/mm/yyyy"]
+2025-04-08 11:20:52 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USERSERVICE with eureka with status DOWN
+2025-04-08 11:20:52 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744091452056, current=DOWN, previous=UP]
+2025-04-08 11:20:52 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-08 11:20:52 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 11:20:52 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 11:20:52 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-08 11:20:52 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 11:20:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 11:20:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 11:20:52 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-08 11:20:55 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-08 11:20:55 WARN  c.n.discovery.TimedSupervisorTask - task supervisor shutting down, can't accept the task
+2025-04-08 11:20:55 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - deregister  status: 200
+2025-04-08 11:20:55 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-08 23:09:54 INFO  c.userservice.UserServiceApplication - Starting UserServiceApplication using Java 23.0.2 with PID 31877 (/home/kuldeep/D/Case Study/E-Shopping_zone/UserService/target/classes started by kuldeep in /home/kuldeep/D/Case Study/E-Shopping_zone/UserService)
+2025-04-08 23:09:54 INFO  c.userservice.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-08 23:09:55 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-08 23:09:55 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 175 ms. Found 1 JPA repository interface.
+2025-04-08 23:09:55 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=04f272af-1f87-3d81-956a-85bd7970eaf1
+2025-04-08 23:09:56 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-04-08 23:09:56 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-04-08 23:09:56 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-08 23:09:56 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-08 23:09:56 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-08 23:09:56 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2390 ms
+2025-04-08 23:09:56 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-08 23:09:56 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-08 23:09:56 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-08 23:09:57 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-08 23:09:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-08 23:09:57 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c8689e
+2025-04-08 23:09:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-08 23:09:58 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-08 23:09:58 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-08 23:09:58 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-08 23:09:58 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-08 23:09:58 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 23:09:59 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-08 23:09:59 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-08 23:10:01 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-08 23:10:02 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-08 23:10:02 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-08 23:10:02 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-08 23:10:02 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-08 23:10:02 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-08 23:10:02 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1744134002924 with initial instances count: 1
+2025-04-08 23:10:02 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USERSERVICE with eureka with status UP
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744134002935, current=UP, previous=STARTING]
+2025-04-08 23:10:02 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/Msi-Laptop:UserService:8001: registering service...
+2025-04-08 23:10:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-04-08 23:10:02 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2025-04-08 23:10:02 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/Msi-Laptop:UserService:8001 - registration status: 204
+2025-04-08 23:10:03 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-08 23:10:03 INFO  c.userservice.UserServiceApplication - Started UserServiceApplication in 10.614 seconds (process running for 11.738)
+2025-04-08 23:15:02 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-08 23:20:02 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-08 23:25:02 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-08 23:30:02 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-08 23:35:02 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-08 23:39:10 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USERSERVICE with eureka with status DOWN
+2025-04-08 23:39:10 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744135750437, current=DOWN, previous=UP]
+2025-04-08 23:39:10 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/Msi-Laptop:UserService:8001: registering service...
+2025-04-08 23:39:10 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-08 23:39:10 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/Msi-Laptop:UserService:8001 - registration status: 204
+2025-04-08 23:39:10 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-08 23:39:10 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-08 23:39:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-08 23:39:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-08 23:39:10 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-08 23:39:13 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-08 23:39:13 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/Msi-Laptop:UserService:8001 - deregister  status: 200
+2025-04-08 23:39:13 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-09 15:16:15 INFO  c.userservice.UserServiceApplication - Starting UserServiceApplication using Java 23.0.2 with PID 55184 (/home/kuldeep/D/Case Study/E-Shopping_zone/UserService/target/classes started by kuldeep in /home/kuldeep/D/Case Study/E-Shopping_zone/UserService)
+2025-04-09 15:16:15 INFO  c.userservice.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-09 15:16:16 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 15:16:16 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interface.
+2025-04-09 15:16:16 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=eb8eaffc-ab18-38e9-bf7e-54ae27607622
+2025-04-09 15:16:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-04-09 15:16:17 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-04-09 15:16:17 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-09 15:16:17 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09 15:16:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-09 15:16:17 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2165 ms
+2025-04-09 15:16:17 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 15:16:17 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-09 15:16:17 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-09 15:16:18 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09 15:16:18 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-09 15:16:18 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1317ac2c
+2025-04-09 15:16:18 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-09 15:16:18 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-09 15:16:18 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-09 15:16:18 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-09 15:16:19 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-09 15:16:20 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 15:16:20 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 15:16:20 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-09 15:16:21 WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d3316e90-8a14-4209-a318-4dfec1569121
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-04-09 15:16:21 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-04-09 15:16:23 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 15:16:24 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-09 15:16:24 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-09 15:16:24 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-09 15:16:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-09 15:16:24 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1744191984875 with initial instances count: 1
+2025-04-09 15:16:24 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USERSERVICE with eureka with status UP
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744191984888, current=UP, previous=STARTING]
+2025-04-09 15:16:24 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 15:16:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-04-09 15:16:24 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2025-04-09 15:16:24 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 15:16:24 INFO  c.userservice.UserServiceApplication - Started UserServiceApplication in 11.298 seconds (process running for 12.217)
+2025-04-09 15:17:00 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09 15:17:00 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-09 15:17:00 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-09 15:17:51 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'userId': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "getAllUser"]
+2025-04-09 15:18:10 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'userId': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "createUser"]
+2025-04-09 15:18:14 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'userId': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "createUser"]
+2025-04-09 15:18:39 INFO  c.userservice.config.LoggingAspect - ➡️ Entering UserController.getUserById(..) with args: [1]
+2025-04-09 15:18:39 INFO  c.userservice.config.LoggingAspect - ⬅️ Exiting UserController.getUserById(..) | Execution time: 224 ms | Response: <200 OK OK,com.userservice.entity.User@49232ac0,[]>
+2025-04-09 15:21:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 15:26:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 15:31:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 15:35:50 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USERSERVICE with eureka with status DOWN
+2025-04-09 15:35:50 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744193150904, current=DOWN, previous=UP]
+2025-04-09 15:35:50 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 15:35:50 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09 15:35:50 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-09 15:35:50 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 15:35:50 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 15:35:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-09 15:35:50 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-09 15:35:50 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-09 15:35:53 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-09 15:35:53 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - deregister  status: 200
+2025-04-09 15:35:53 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-09 15:59:48 INFO  c.userservice.UserServiceApplication - Starting UserServiceApplication using Java 23.0.2 with PID 59246 (/home/kuldeep/D/Case Study/E-Shopping_zone/UserService/target/classes started by kuldeep in /home/kuldeep/D/Case Study/E-Shopping_zone/UserService)
+2025-04-09 15:59:48 INFO  c.userservice.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-09 15:59:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 15:59:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 168 ms. Found 1 JPA repository interface.
+2025-04-09 15:59:49 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=fe7e12a6-cfb0-379b-bb6a-3065493237c5
+2025-04-09 15:59:50 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-04-09 15:59:50 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-04-09 15:59:50 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-09 15:59:50 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09 15:59:50 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-09 15:59:50 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2245 ms
+2025-04-09 15:59:51 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 15:59:51 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-09 15:59:51 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-09 15:59:51 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09 15:59:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-09 15:59:52 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b6c0b7c
+2025-04-09 15:59:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-09 15:59:52 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-09 15:59:52 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-09 15:59:52 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-09 15:59:53 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-09 15:59:53 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 15:59:53 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 15:59:54 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-09 15:59:54 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-09 15:59:54 WARN  o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry - One of the patterns in [/auth/register, /auth/login, /auth/validate, /swagger-ui/**, /v3/api-docs/**, /user/**, notificationservice/notification/register] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-04-09 15:59:54 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-09 15:59:56 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 15:59:57 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 15:59:57 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-09 15:59:57 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-09 15:59:57 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-09 15:59:57 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-09 15:59:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 15:59:57 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-09 15:59:57 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-09 15:59:57 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-09 15:59:57 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-09 15:59:57 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-09 15:59:57 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-09 15:59:57 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-09 15:59:58 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-09 15:59:58 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-09 15:59:58 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-09 15:59:58 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1744194598027 with initial instances count: 1
+2025-04-09 15:59:58 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USERSERVICE with eureka with status UP
+2025-04-09 15:59:58 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744194598039, current=UP, previous=STARTING]
+2025-04-09 15:59:58 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-04-09 15:59:58 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 15:59:58 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-04-09 15:59:58 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2025-04-09 15:59:58 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 15:59:59 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 15:59:59 INFO  c.userservice.UserServiceApplication - Started UserServiceApplication in 12.349 seconds (process running for 13.409)
+2025-04-09 16:01:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09 16:01:34 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-09 16:01:34 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 63 ms
+2025-04-09 16:04:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 16:06:27 INFO  c.userservice.config.LoggingAspect - ➡️ Entering UserController.createUser(..) with args: [com.userservice.entity.User@405276ea]
+2025-04-09 16:06:27 INFO  c.userservice.config.LoggingAspect - ⬅️ Exiting UserController.createUser(..) | Execution time: 423 ms | Response: <201 CREATED Created,User Created,[]>
+2025-04-09 16:09:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 16:14:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 16:19:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 16:24:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 16:29:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 16:34:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 16:39:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 16:44:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 16:49:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 16:54:57 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 19:40:00 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 19:45:00 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 19:50:00 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 19:55:00 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 20:00:00 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 20:05:00 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 20:07:25 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USERSERVICE with eureka with status DOWN
+2025-04-09 20:07:25 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744209445717, current=DOWN, previous=UP]
+2025-04-09 20:07:25 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 20:07:25 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09 20:07:25 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-09 20:07:25 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 20:07:25 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 20:07:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-09 20:07:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-09 20:07:25 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-09 20:07:28 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-09 20:07:28 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - deregister  status: 200
+2025-04-09 20:07:28 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-09 20:17:18 INFO  c.userservice.UserServiceApplication - Starting UserServiceApplication using Java 23.0.2 with PID 64895 (/home/kuldeep/D/Case Study/E-Shopping_zone/UserService/target/classes started by kuldeep in /home/kuldeep/D/Case Study/E-Shopping_zone/UserService)
+2025-04-09 20:17:18 INFO  c.userservice.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-09 20:17:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 20:17:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interface.
+2025-04-09 20:17:19 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b6088722-3eb7-3177-814b-c5d6aebd74c0
+2025-04-09 20:17:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-04-09 20:17:19 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-04-09 20:17:19 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-09 20:17:19 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09 20:17:19 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-09 20:17:19 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1643 ms
+2025-04-09 20:17:19 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 20:17:20 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-09 20:17:20 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-09 20:17:20 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09 20:17:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-09 20:17:20 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8dcacf1
+2025-04-09 20:17:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-09 20:17:20 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-09 20:17:20 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-09 20:17:20 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-09 20:17:21 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-09 20:17:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 20:17:22 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 20:17:22 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-09 20:17:22 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-09 20:17:22 WARN  o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry - One of the patterns in [/auth/register, /auth/login, /auth/validate, /swagger-ui/**, /v3/api-docs/**, /user/**, notificationservice/notification/register] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-04-09 20:17:22 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-09 20:17:24 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 20:17:25 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 20:17:25 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-09 20:17:25 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-09 20:17:25 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-09 20:17:25 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-09 20:17:25 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1744210045544 with initial instances count: 0
+2025-04-09 20:17:25 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USERSERVICE with eureka with status UP
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744210045552, current=UP, previous=STARTING]
+2025-04-09 20:17:25 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 20:17:25 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-04-09 20:17:25 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2025-04-09 20:17:25 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 20:17:26 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 20:17:26 INFO  c.userservice.UserServiceApplication - Started UserServiceApplication in 10.011 seconds (process running for 10.827)
+2025-04-09 20:17:37 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09 20:17:37 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-09 20:17:37 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-09 20:17:37 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=kuldeep@gmail.com, password=user@123)]
+2025-04-09 20:17:55 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-09 20:17:55 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-09 20:17:55 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-09 20:17:55 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-09 20:17:55 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-09 20:17:55 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2025-04-09 20:17:55 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-09 20:17:55 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-09 20:19:00 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.createUser(..) with args: [com.userservice.entity.User@65621c6c]
+2025-04-09 20:19:00 INFO  c.userservice.config.LoggingAspect - ⬅️ Exiting AuthController.createUser(..) | Execution time: 84 ms | Response: <201 CREATED Created,User Created,[]>
+2025-04-09 20:19:39 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=null, password=user@123)]
+2025-04-09 20:20:12 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.createUser(..) with args: [com.userservice.entity.User@76f6ef26]
+2025-04-09 20:20:13 INFO  c.userservice.config.LoggingAspect - ⬅️ Exiting AuthController.createUser(..) | Execution time: 14 ms | Response: <201 CREATED Created,User Created,[]>
+2025-04-09 20:20:25 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=null, password=user@123)]
+2025-04-09 20:20:42 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=null, password=user@123)]
+2025-04-09 20:22:25 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 20:27:25 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 20:32:25 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 20:37:25 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 20:38:41 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.createUser(..) with args: [com.userservice.entity.User@1e997607]
+2025-04-09 20:38:41 INFO  c.userservice.config.LoggingAspect - ⬅️ Exiting AuthController.createUser(..) | Execution time: 16 ms | Response: <201 CREATED Created,User Created,[]>
+2025-04-09 20:38:46 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=null, password=user@123)]
+2025-04-09 20:41:34 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USERSERVICE with eureka with status DOWN
+2025-04-09 20:41:34 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744211494743, current=DOWN, previous=UP]
+2025-04-09 20:41:34 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 20:41:34 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09 20:41:34 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-09 20:41:34 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 20:41:34 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 20:41:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-09 20:41:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-09 20:41:34 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-09 20:41:37 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-09 20:41:37 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - deregister  status: 200
+2025-04-09 20:41:37 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-09 21:06:04 INFO  c.userservice.UserServiceApplication - Starting UserServiceApplication using Java 23.0.2 with PID 5703 (/home/kuldeep/D/Case Study/E-Shopping_zone/UserService/target/classes started by kuldeep in /home/kuldeep/D/Case Study/E-Shopping_zone/UserService)
+2025-04-09 21:06:04 INFO  c.userservice.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-09 21:06:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 21:06:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 169 ms. Found 1 JPA repository interface.
+2025-04-09 21:06:05 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b6088722-3eb7-3177-814b-c5d6aebd74c0
+2025-04-09 21:06:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-04-09 21:06:06 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-04-09 21:06:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-09 21:06:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09 21:06:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-09 21:06:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2395 ms
+2025-04-09 21:06:06 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 21:06:07 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-09 21:06:07 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-09 21:06:07 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09 21:06:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-09 21:06:07 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3879feec
+2025-04-09 21:06:07 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-09 21:06:07 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-09 21:06:07 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-09 21:06:07 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-09 21:06:08 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-09 21:06:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 21:06:09 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 21:06:09 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-09 21:06:09 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-09 21:06:10 WARN  o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry - One of the patterns in [/auth/register, /auth/login, /auth/validate, /swagger-ui/**, /v3/api-docs/**, /user/**, notificationservice/notification/register] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-04-09 21:06:10 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-09 21:06:12 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 21:06:13 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 21:06:13 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-09 21:06:13 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-09 21:06:13 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-09 21:06:13 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-09 21:06:13 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1744212973865 with initial instances count: 1
+2025-04-09 21:06:13 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USERSERVICE with eureka with status UP
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744212973877, current=UP, previous=STARTING]
+2025-04-09 21:06:13 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 21:06:13 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-04-09 21:06:13 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2025-04-09 21:06:13 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 21:06:14 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 21:06:14 INFO  c.userservice.UserServiceApplication - Started UserServiceApplication in 12.338 seconds (process running for 13.244)
+2025-04-09 21:06:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09 21:06:52 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-09 21:06:52 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-09 21:06:52 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=null, password=user@123)]
+2025-04-09 21:11:13 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 21:16:13 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 21:21:13 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 21:22:06 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=kuldeep@gmail.com, password=user@123)]
+2025-04-09 21:22:53 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=kuldeep@gmail.com, password=user@123)]
+2025-04-09 21:26:13 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 21:31:13 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 21:36:13 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 21:41:13 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:11:42 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:12:15 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USERSERVICE with eureka with status DOWN
+2025-04-09 22:12:15 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744216935566, current=DOWN, previous=UP]
+2025-04-09 22:12:15 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 22:12:15 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09 22:12:15 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-09 22:12:15 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 22:12:15 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 22:12:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-09 22:12:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-09 22:12:15 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-09 22:12:18 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-09 22:12:18 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - deregister  status: 200
+2025-04-09 22:12:18 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-09 22:12:25 INFO  c.userservice.UserServiceApplication - Starting UserServiceApplication using Java 23.0.2 with PID 7785 (/home/kuldeep/D/Case Study/E-Shopping_zone/UserService/target/classes started by kuldeep in /home/kuldeep/D/Case Study/E-Shopping_zone/UserService)
+2025-04-09 22:12:25 INFO  c.userservice.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-09 22:12:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 22:12:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 171 ms. Found 1 JPA repository interface.
+2025-04-09 22:12:26 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b6088722-3eb7-3177-814b-c5d6aebd74c0
+2025-04-09 22:12:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-04-09 22:12:27 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-04-09 22:12:27 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-09 22:12:27 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09 22:12:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-09 22:12:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2357 ms
+2025-04-09 22:12:27 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 22:12:27 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-09 22:12:27 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-09 22:12:28 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09 22:12:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-09 22:12:28 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f89ad03
+2025-04-09 22:12:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-09 22:12:28 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-09 22:12:28 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-09 22:12:28 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-09 22:12:29 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-09 22:12:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 22:12:30 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 22:12:30 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-09 22:12:30 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-09 22:12:30 WARN  o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry - One of the patterns in [/auth/register, /auth/login, /auth/validate, /swagger-ui/**, /v3/api-docs/**, /user/**, notificationservice/notification/register] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-04-09 22:12:31 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-09 22:12:33 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:12:34 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:12:34 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-09 22:12:34 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-09 22:12:34 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-09 22:12:34 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-09 22:12:34 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1744216954857 with initial instances count: 1
+2025-04-09 22:12:34 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USERSERVICE with eureka with status UP
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744216954869, current=UP, previous=STARTING]
+2025-04-09 22:12:34 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 22:12:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-04-09 22:12:34 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2025-04-09 22:12:34 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 22:12:35 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:12:35 INFO  c.userservice.UserServiceApplication - Started UserServiceApplication in 12.457 seconds (process running for 13.552)
+2025-04-09 22:16:46 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09 22:16:46 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-09 22:16:46 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-09 22:17:15 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.createUser(..) with args: [com.userservice.entity.User@22a2c93b]
+2025-04-09 22:17:15 INFO  c.userservice.config.LoggingAspect - ⬅️ Exiting AuthController.createUser(..) | Execution time: 146 ms | Response: <201 CREATED Created,User Created,[]>
+2025-04-09 22:17:34 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:17:43 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=saurabh@gmail.com, password=user@1234)]
+2025-04-09 22:17:43 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2025-04-09 22:17:43 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2025-04-09 22:22:34 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:27:34 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:32:34 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:35:34 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.createUser(..) with args: [com.userservice.entity.User@5a4b90f4]
+2025-04-09 22:35:35 INFO  c.userservice.config.LoggingAspect - ⬅️ Exiting AuthController.createUser(..) | Execution time: 225 ms | Response: <201 CREATED Created,User Created,[]>
+2025-04-09 22:36:34 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=amit@gmail.com, password=user@12345)]
+2025-04-09 22:36:34 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2025-04-09 22:36:34 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2025-04-09 22:37:34 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:42:21 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USERSERVICE with eureka with status DOWN
+2025-04-09 22:42:21 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744218741340, current=DOWN, previous=UP]
+2025-04-09 22:42:21 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 22:42:21 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 22:42:21 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09 22:42:21 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-09 22:42:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 22:42:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-09 22:42:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-09 22:42:21 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-09 22:42:24 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-09 22:42:24 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - deregister  status: 200
+2025-04-09 22:42:24 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-09 22:42:31 INFO  c.userservice.UserServiceApplication - Starting UserServiceApplication using Java 23.0.2 with PID 10211 (/home/kuldeep/D/Case Study/E-Shopping_zone/UserService/target/classes started by kuldeep in /home/kuldeep/D/Case Study/E-Shopping_zone/UserService)
+2025-04-09 22:42:31 INFO  c.userservice.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-09 22:42:32 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 22:42:32 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 166 ms. Found 1 JPA repository interface.
+2025-04-09 22:42:32 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b6088722-3eb7-3177-814b-c5d6aebd74c0
+2025-04-09 22:42:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-04-09 22:42:33 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-04-09 22:42:33 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-09 22:42:33 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09 22:42:33 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-09 22:42:33 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2369 ms
+2025-04-09 22:42:34 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 22:42:34 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-09 22:42:34 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-09 22:42:34 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09 22:42:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-09 22:42:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8dcacf1
+2025-04-09 22:42:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-09 22:42:35 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-09 22:42:35 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-09 22:42:35 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-09 22:42:36 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-09 22:42:36 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 22:42:37 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 22:42:37 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-09 22:42:37 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-09 22:42:37 WARN  o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry - One of the patterns in [/auth/register, /auth/login, /auth/validate, /swagger-ui/**, /v3/api-docs/**, /user/**, notificationservice/notification/register] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-04-09 22:42:37 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-09 22:42:39 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:42:40 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:42:40 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-09 22:42:40 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-09 22:42:40 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-09 22:42:40 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-09 22:42:40 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:42:40 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-09 22:42:40 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-09 22:42:40 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-09 22:42:40 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-09 22:42:40 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-09 22:42:40 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-09 22:42:40 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-09 22:42:41 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-09 22:42:41 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-09 22:42:41 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-09 22:42:41 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1744218761354 with initial instances count: 2
+2025-04-09 22:42:41 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USERSERVICE with eureka with status UP
+2025-04-09 22:42:41 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744218761366, current=UP, previous=STARTING]
+2025-04-09 22:42:41 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-04-09 22:42:41 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 22:42:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-04-09 22:42:41 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2025-04-09 22:42:41 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 22:42:42 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:42:42 INFO  c.userservice.UserServiceApplication - Started UserServiceApplication in 12.767 seconds (process running for 13.745)
+2025-04-09 22:47:40 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:47:47 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USERSERVICE with eureka with status DOWN
+2025-04-09 22:47:47 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744219067193, current=DOWN, previous=UP]
+2025-04-09 22:47:47 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 22:47:47 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09 22:47:47 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-09 22:47:47 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 22:47:47 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 22:47:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-09 22:47:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-09 22:47:47 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-09 22:47:50 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-09 22:47:50 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - deregister  status: 200
+2025-04-09 22:47:50 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-09 22:47:56 INFO  c.userservice.UserServiceApplication - Starting UserServiceApplication using Java 23.0.2 with PID 10711 (/home/kuldeep/D/Case Study/E-Shopping_zone/UserService/target/classes started by kuldeep in /home/kuldeep/D/Case Study/E-Shopping_zone/UserService)
+2025-04-09 22:47:56 INFO  c.userservice.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-09 22:47:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 22:47:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 168 ms. Found 1 JPA repository interface.
+2025-04-09 22:47:57 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b6088722-3eb7-3177-814b-c5d6aebd74c0
+2025-04-09 22:47:58 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-04-09 22:47:58 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-04-09 22:47:58 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-09 22:47:58 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09 22:47:58 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-09 22:47:58 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2320 ms
+2025-04-09 22:47:58 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 22:47:58 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-09 22:47:58 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-09 22:47:59 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09 22:47:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-09 22:47:59 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c92f094
+2025-04-09 22:47:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-09 22:47:59 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-09 22:47:59 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-09 22:47:59 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-09 22:48:00 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-09 22:48:00 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 22:48:01 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 22:48:01 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-09 22:48:01 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-09 22:48:01 WARN  o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry - One of the patterns in [/auth/register, /auth/login, /auth/validate, /swagger-ui/**, /v3/api-docs/**, /user/**, notificationservice/notification/register] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-04-09 22:48:02 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-09 22:48:04 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:48:05 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:48:05 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-09 22:48:05 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-09 22:48:05 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-09 22:48:05 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-09 22:48:05 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1744219085940 with initial instances count: 2
+2025-04-09 22:48:05 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USERSERVICE with eureka with status UP
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744219085954, current=UP, previous=STARTING]
+2025-04-09 22:48:05 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 22:48:05 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-04-09 22:48:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-04-09 22:48:05 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2025-04-09 22:48:06 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 22:48:06 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:48:06 INFO  c.userservice.UserServiceApplication - Started UserServiceApplication in 12.499 seconds (process running for 13.506)
+2025-04-09 22:48:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-09 22:48:12 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-09 22:48:12 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-09 22:48:12 INFO  c.userservice.config.LoggingAspect - ➡️ Entering AuthController.login(..) with args: [JwtRequest(email=amit@gmail.com, password=user@12345)]
+2025-04-09 22:48:13 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2025-04-09 22:48:13 WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2025-04-09 22:53:05 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:53:09 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application USERSERVICE with eureka with status DOWN
+2025-04-09 22:53:09 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744219389559, current=DOWN, previous=UP]
+2025-04-09 22:53:09 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001: registering service...
+2025-04-09 22:53:09 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09 22:53:09 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-09 22:53:09 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - registration status: 204
+2025-04-09 22:53:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 22:53:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-09 22:53:09 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-09 22:53:09 INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-09 22:53:12 INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-09 22:53:12 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/localhost:UserService:8001 - deregister  status: 200
+2025-04-09 22:53:12 INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-09 22:53:17 INFO  c.userservice.UserServiceApplication - Starting UserServiceApplication using Java 23.0.2 with PID 11354 (/home/kuldeep/D/Case Study/E-Shopping_zone/UserService/target/classes started by kuldeep in /home/kuldeep/D/Case Study/E-Shopping_zone/UserService)
+2025-04-09 22:53:17 INFO  c.userservice.UserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-09 22:53:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09 22:53:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 164 ms. Found 1 JPA repository interface.
+2025-04-09 22:53:18 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b6088722-3eb7-3177-814b-c5d6aebd74c0
+2025-04-09 22:53:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-04-09 22:53:19 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-04-09 22:53:19 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-09 22:53:19 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-09 22:53:19 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-09 22:53:19 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2150 ms
+2025-04-09 22:53:19 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-09 22:53:19 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-09 22:53:19 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-09 22:53:20 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09 22:53:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-09 22:53:20 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50f13494
+2025-04-09 22:53:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-09 22:53:20 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-09 22:53:20 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-09 22:53:20 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-09 22:53:21 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-09 22:53:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09 22:53:22 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09 22:53:22 INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-09 22:53:22 WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-09 22:53:22 WARN  o.s.s.c.a.w.c.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry - One of the patterns in [/auth/register, /auth/login, /auth/validate, /swagger-ui/**, /v3/api-docs/**, /user/**, notificationservice/notification/register] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-04-09 22:53:22 INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-04-09 22:53:24 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:53:24 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-09 22:53:24 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-09 22:53:24 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-09 22:53:24 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-09 22:53:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 22:53:24 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-09 22:53:24 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-09 22:53:24 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-09 22:53:24 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-09 22:53:24 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-09 22:53:24 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-09 22:53:24 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-09 22:53:25 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-09 22:53:25 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-09 22:53:25 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-09 22:53:25 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1744219405204 with initial instances count: 3
+2025-04-09 22:53:25 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USERSERVICE with eureka with status UP
+2025-04-09 22:53:25 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1744219405217, current=UP, previous=STARTING]
+2025-04-09 22:53:25 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-04-09 22:53:25 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/Msi-Laptop:UserService:8001: registering service...
+2025-04-09 22:53:25 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-04-09 22:53:25 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8001
+2025-04-09 22:53:25 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USERSERVICE/Msi-Laptop:UserService:8001 - registration status: 204
+2025-04-09 22:53:26 INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-04-09 22:53:26 INFO  c.userservice.UserServiceApplication - Started UserServiceApplication in 9.698 seconds (process running for 10.633)
+2025-04-09 22:58:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 23:03:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 23:08:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 23:13:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-09 23:18:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

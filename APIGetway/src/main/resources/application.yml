@@ -1,0 +1,42 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: APIGATEWAY
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: user-service
+          uri: lb://USERSERVICE
+          predicates:
+            - Path=/api/users/**
+
+        - id: product-service
+          uri: lb://PRODUCTSERVICE
+          predicates:
+            - Path=/api/products/**
+
+        - id: cart-service
+          uri: lb://CARTSERVICE
+          predicates:
+            - Path=/api/cart/**
+
+        - id: order-service
+          uri: lb://ORDERSERVICE
+          predicates:
+            - Path=/api/orders/**
+
+        - id: notification-service
+          uri: lb://NOTIFICATIONSERVICE
+          predicates:
+            - Path=/api/notifications/**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

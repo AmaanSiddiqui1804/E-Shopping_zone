@@ -1,0 +1,2 @@
+2025-04-10 12:52:53 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table 'UserService.user' doesn't exist
+2025-04-10 12:53:22 ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Table 'UserService.user' doesn't exist
